@@ -57,6 +57,7 @@ body {
   /* font-family: "Poppins", sans-serif; */
   font-size: 16px;
   font-weight: 400;
+  background-color: #f6f6f6;
 }
 
 img {
@@ -147,7 +148,7 @@ p {
   margin-bottom: 15px;
   font-size: 16px;
   color: #0a0a0a;
-  font-family: "Poppins", sans-serif;
+  font-family: "Raleway";
   line-height: 1.8;
 }
 
@@ -272,7 +273,7 @@ button {
   color: #181c27;
 }
 
-.consulting-section-title::before {
+/* .consulting-section-title::before {
   position: absolute;
   content: '';
   height: 3px;
@@ -282,7 +283,7 @@ button {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-}
+} */
 
 .consulting-section-title::after {
   position: absolute;
@@ -2121,12 +2122,12 @@ button {
 .sass-solution-single-card {
   padding: 30px;
   margin-bottom: 30px;
-  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  /* -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   background-color: #ffffff;
   border-radius: 10px;
   -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
+  transition: all ease 0.5s; */
   position: relative;
 }
 
@@ -2143,24 +2144,36 @@ button {
   text-align: center;
   color: #0797ff;
   font-size: 16px;
-  border: 1px solid #0797ff;
+  /* border: 1px solid #0797ff; */
   position: absolute;
   left: 0;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
 
+.sass-solution-single-card .solution-content .icon.partner {
+  width: 200px;
+}
+
+.partner-desc{
+  padding-left: 200px;
+}
+
 .sass-solution-single-card .solution-content h3 {
-  font-size: 22px;
+  font-size: 1.25rem;
   margin-bottom: 15px;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
+  line-height: 30px;
 }
 
 .sass-solution-single-card .solution-content p {
-  font-size: 15px;
+  font-size: 18px;
+  padding-bottom: 20px;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
+  border-bottom: solid 2px orange;
+  height: 100px;
 }
 
 .sass-solution-single-card .solution-content a {
@@ -2169,7 +2182,7 @@ button {
   transition: all ease 0.5s;
 }
 
-.sass-solution-single-card::before {
+/* .sass-solution-single-card::before {
   position: absolute;
   content: '';
   height: 100%;
@@ -2194,9 +2207,9 @@ button {
 .sass-solution-single-card:hover .solution-content .icon {
   color: #ffffff;
   border-color: #ffffff;
-}
+} */
 
-.sass-solution-single-card:hover .solution-content h3 {
+/* .sass-solution-single-card:hover .solution-content h3 {
   color: #ffffff;
 }
 
@@ -2206,7 +2219,7 @@ button {
 
 .sass-solution-single-card:hover .solution-content a {
   color: #ffffff;
-}
+} */
 
 /*Core Statics Style
 ======================================================*/
@@ -3390,7 +3403,10 @@ button {
 .agency-footer-area {
   position: relative;
   z-index: 1;
-  background-color: #ff9958;
+  background-image: url(../images/footer/bg_footer.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: #ff9958; */
 }
 
 .agency-footer-area .footer-shape-1 {
@@ -4658,6 +4674,19 @@ Go To Top Style
   right: 0;
 }
 
+.tujuan-list ul li{
+  font-family: 'Raleway';
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  color: #0a0a0a;
+}
+
+.consulting-about-title h2{
+  color:#FF893E;
+  ;
+}
+
 /*Services Style
 ======================================================*/
 .agency-services-area {
@@ -4955,6 +4984,10 @@ Go To Top Style
 .active.center .portfolio-card .portfolio-img .caption-two {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
+}
+
+.portfolio-image img{
+  width: 400px;
 }
 
 /*Video Style
@@ -6014,11 +6047,11 @@ Go To Top Style
 
 /*Features Style
 ======================================================*/
-.features-content {
+/* .features-content {
   -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-}
+} */
 
 .consulting-features-card {
   text-align: center;
@@ -6035,7 +6068,7 @@ Go To Top Style
 }
 
 .consulting-features-card .icon::before {
-  position: absolute;
+  /* position: absolute; */
   content: '';
   height: 60px;
   width: 60px;
@@ -6061,7 +6094,7 @@ Go To Top Style
 }
 
 .consulting-features-card::before {
-  position: absolute;
+  /* position: absolute; */
   content: '';
   background-color: #eeeeee;
   height: 70%;
@@ -9283,6 +9316,7 @@ Go To Top Style
 .currency-buy-and-sell-area {
   /* Firefox */
   /* Chrome, Edge, and Safari */
+  width: auto;
 }
 
 .currency-buy-and-sell-area .scrollmenu {
@@ -9941,6 +9975,7 @@ Go To Top Style
 ======================================================*/
 .currency-testimonial-area {
   /* Firefox */
+  width: auto;
   /* Chrome, Edge, and Safari */
 }
 
@@ -12313,9 +12348,10 @@ Go To Top Style
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
+  height: 70vh;
   padding-top: 200px;
   padding-bottom: 150px;
-  background-image: url(../images/video-img/video-img-2.jpg);
+  background-image: url(../images/banner/about_us_banner.svg);
 }
 
 .page-banner-area::before {
@@ -12325,7 +12361,91 @@ Go To Top Style
   width: 100%;
   left: 0;
   top: 0;
-  background: rgba(17, 29, 94, 0.8);
+  background: linear-gradient(180deg, #FFFFFF 9.8%, rgba(255, 255, 255, 0) 90.49%);
+}
+
+.page-banner-area-activity{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 70vh;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url(../images/banner/banner_activity.jpg);
+}
+
+.page-banner-area-activity::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, #FFFFFF 9.8%, rgba(255, 255, 255, 0) 90.49%);
+}
+
+.page-banner-area-portfolio{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 70vh;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url(../images/banner/banner_portfolio.png);
+}
+
+.page-banner-area-portfolio::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, #FFFFFF 9.8%, rgba(255, 255, 255, 0) 90.49%);
+}
+
+.page-banner-area-contact{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 70vh;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url(../images/banner/banner_contact.svg);
+}
+
+.page-banner-area-contact::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, #FFFFFF 9.8%, rgba(255, 255, 255, 0) 90.49%);
+}
+
+.page-banner-area-partner{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 70vh;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  background-image: url(../images/banner/bg_partner.svg);
+}
+
+.page-banner-area-partner::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(180deg, #FFFFFF 9.8%, rgba(255, 255, 255, 0) 90.49%);
 }
 
 .page-banner-content {
@@ -12335,7 +12455,7 @@ Go To Top Style
 .page-banner-content h1 {
   font-size: 50px;
   margin-bottom: 10px;
-  color: #ffffff;
+  color: #0a0a0a;
 }
 
 .page-banner-content ul {
