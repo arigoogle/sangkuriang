@@ -270,7 +270,13 @@ button {
 .consulting-section-title h2 {
   font-size: 40px;
   font-family: "Mulish", sans-serif;
-  color: #181c27;
+  color: #FF893E;
+}
+
+.consulting-section-title h3 {
+  font-size: 28px;
+  font-family: "Mulish", sans-serif;
+  color: #FF893E;
 }
 
 /* .consulting-section-title::before {
@@ -2157,6 +2163,14 @@ button {
 
 .partner-desc{
   padding-left: 200px;
+}
+
+.partner-desc h3{
+  color:#FF893E ;
+}
+
+.partner-desc p{
+  height: 150px!important;
 }
 
 .sass-solution-single-card .solution-content h3 {
