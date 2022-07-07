@@ -119,6 +119,10 @@ img {
   padding-right: 20px;
 }
 
+.pr-48 {
+  padding-right: 48px;
+}
+
 .pl-20 {
   padding-left: 20px;
 }
@@ -692,7 +696,7 @@ button {
 }
 
 .navbar-light.nav-style3.is-sticky .navbar-nav .nav-item .nav-link:hover, .navbar-light.nav-style3.is-sticky .navbar-nav .nav-item .nav-link:focus, .navbar-light.nav-style3.is-sticky .navbar-nav .nav-item .nav-link.active {
-  color: #3561e4;
+  color: #FF893E;
 }
 
 .navbar-light.nav-style4 {
@@ -2153,6 +2157,7 @@ button {
   /* border: 1px solid #0797ff; */
   position: absolute;
   left: 0;
+  top:50px;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
@@ -5002,6 +5007,7 @@ Go To Top Style
 
 .portfolio-image img{
   width: 400px;
+  padding-bottom: 100px;
 }
 
 /*Video Style
