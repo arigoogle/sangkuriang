@@ -5895,7 +5895,7 @@ Go To Top Style
 .consulting-banner-area {
   padding-top: 100px;
   background-color: #f4f7ff;
-  background-image: url(../images/banner/home1.svg);
+  background-image: url(../images/banner/banner_bg_home.webp);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -12371,7 +12371,7 @@ Go To Top Style
   height: 70vh;
   padding-top: 200px;
   padding-bottom: 150px;
-  background-image: url(../images/banner/about_us_banner.svg);
+  background-image: url(../images/banner/banner_bg_aboutus.webp);
 }
 
 .page-banner-area::before {
@@ -12392,7 +12392,7 @@ Go To Top Style
   height: 70vh;
   padding-top: 200px;
   padding-bottom: 150px;
-  background-image: url(../images/banner/banner_activity.jpg);
+  background-image: url(../images/banner/banner_bg_activity.webp);
 }
 
 .page-banner-area-activity::before {
@@ -12413,7 +12413,7 @@ Go To Top Style
   height: 70vh;
   padding-top: 200px;
   padding-bottom: 150px;
-  background-image: url(../images/banner/banner_portfolio.png);
+  background-image: url(../images/banner/banner_bg_portfolio.webp);
 }
 
 .page-banner-area-portfolio::before {
@@ -12434,7 +12434,7 @@ Go To Top Style
   height: 70vh;
   padding-top: 200px;
   padding-bottom: 150px;
-  background-image: url(../images/banner/banner_contact.svg);
+  background-image: url(../images/banner/banner_bg_contact.webp);
 }
 
 .page-banner-area-contact::before {
@@ -12455,7 +12455,7 @@ Go To Top Style
   height: 70vh;
   padding-top: 200px;
   padding-bottom: 150px;
-  background-image: url(../images/banner/bg_partner.svg);
+  background-image: url(../images/banner/banner_bg_partner.webp);
 }
 
 .page-banner-area-partner::before {
